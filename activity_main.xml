@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    android:background="#186A3B"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/googleBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AMUA AFRICA WEBSITE"
+        android:background="#F1C40F"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/secondActivityBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OUR PROJECTS"
+        android:textSize="25sp"
+        android:background="#ffffff"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:textSize="25sp"
+        android:background="#F1C40F"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/donate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DONATE"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:background="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTACTS"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:background="#F1C40F"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:src="@drawable/amuaaf"
+        />
+
+
+</LinearLayout>

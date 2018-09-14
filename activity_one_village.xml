@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OneVillage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:textAlignment="center"
+            android:background="#186A3B">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="One Village one hundred computers Project"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/projectpage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click to access One Village one hundred computers Project GALLERY"
+                android:textSize="15sp"
+                android:background="#ffffff"
+                android:textStyle="bold"
+                android:textColor="#FF0800"
+                android:textAlignment="center"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F1C40F"
+                android:layout_margin="10dp"
+                android:text="This is a computer based and entrepreneur training targeting the youth (groups) and women. \n The target groups are offered free computer training, skills development and entrepreneur training /mentorship for the individual groups, members. \n At the end of the six month intensive training they should be able to develop a business plan, as well as to apply for startup grants to operate income generating activities within their areas of residence."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

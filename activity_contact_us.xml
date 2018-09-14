@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactUs">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:textAlignment="center"
+            android:background="#186A3B">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CONTACTS"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_margin="20dp"
+                android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F1C40F"
+        android:textColor="#000000"
+        android:layout_margin="30dp"
+        android:text="
+Project Coordinator, \n
+Amua Africa Project-Daho\n
+P.O BOX: 54839-00200, CITY SQUARE, \n
+Nairobi, \n
+Kenya. \n
+Phone :\n +254725743923 \n
+E-mail :\n amuaafricaproject@gmail.com or kenya.itfproject@gmail.com \n
+Skype :\n georgysl1"
+        android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
